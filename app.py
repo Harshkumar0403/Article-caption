@@ -31,7 +31,7 @@ if st.button("Generate Caption"):
         # Generate output from the model
         outputs = model.generate(
             inputs,
-            max_length=50,  # Maximum length of the caption
+            max_length=150,  # Maximum length of the caption
             num_beams=5,    # Beam search for better results
             early_stopping=True
         )
